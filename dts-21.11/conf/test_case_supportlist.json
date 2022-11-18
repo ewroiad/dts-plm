@@ -1,0 +1,2356 @@
+{
+    "vf_vlan_tx": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_25g",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "this case only support on fortville"
+        }
+    ],
+    "dpdk_2pf_2vf_1vm_mac_add_filter": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+		"fortville_spirit",
+		"fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "this case only support on fortville"
+        }
+    ],
+    "two_vms_prevent_rx_broadcast_on_vf": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "this case only support on niantic"
+        }
+    ],
+    "two_vms_enalbe_or_disable_one_uta_mac_on_vf": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "this case only support on niantic"
+        }
+    ],
+    "two_vms_pause_tx_queuse": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "this case only support on niantic"
+        }
+    ],
+    "two_vms_pause_rx_queues": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "this case only support on niantic"
+        }
+    ],
+    "two_vms_add_multi_uta_mac_on_vf": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "this case only support on niantic"
+        }
+    ],
+    "two_vms_add_or_remove_uta_mac_on_vf": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "this case only support on niantic"
+        }
+    ],
+    "l2pkt_detect": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "forrpark_TLV",
+                "foxville",
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g",
+	        "carlsville",
+                "columbiaville_25g",
+                "columbiaville_100g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "l2 packet detect only support on FVL"
+        }
+    ],
+    "IP_in_IPv4_tunnel": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "forrpark_TLV",
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g",
+		"carlsville",
+                "columbiaville_25g",
+                "columbiaville_100g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "IP_in_IPv4 tunnel packet detect only support on FVL"
+        }
+    ],
+    "IPv6_in_IPv4_tunnel": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "powerville",
+                "niantic",
+                "fortville_25g",
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "carlsville",
+                "columbiaville_25g",
+                "columbiaville_100g",
+                "foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "IPv6_in_IPv4 tunnel packet detect only support on Niantic/FVL/powerville/fortpark_TLV"
+        }
+    ],
+    "IP_in_IPv6_tunnel": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "forrpark_TLV",
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g",
+                "carlsville",
+                "columbiaville_25g",
+                "columbiaville_100g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "IP_in_IPv6 tunnel packet detect only support on FVL"
+        }
+    ],
+    "NVGRE_tunnel": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "forrpark_TLV",
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "NVGRE tunnel packet detect only support on FVL"
+        }
+    ],
+    "NVGRE_in_IPv6_tunnel": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "forrpark_TLV",
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "NVGRE in ipv6 tunnel packet detect only support on FVL"
+        }
+    ],
+    "GRE_tunnel": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "forrpark_TLV",
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g",
+		"carlsville",
+                "columbiaville_25g",
+                "columbiaville_100g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "GRE tunnel packet detect only support on FVL"
+        }
+    ],
+    "Vxlan_tunnel": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "forrpark_TLV",
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g",
+		"carlsville",
+                "columbiaville_25g",
+                "columbiaville_100g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "Vxlan  tunnel packet detect only support on FVL"
+        }
+    ],
+    "outer_dst_contrl_gtpcq": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "teid_contrl_gtpcq": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "teid_contrl_gtpu_ipv4q": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "sport_contrl_gtpu_ipv4q": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "dport_contrl_gtpu_ipv4q": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "inner_src_contrl_gtpu_ipv4q": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "inner_dst_contrl_gtpu_ipv4q": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "teid_contrl_gtpu_ipv6q": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "sport_contrl_gtpu_ipv6q": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "dport_contrl_gtpu_ipv6q": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "inner_src_contrl_gtpu_ipv6q": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "inner_dst_contrl_gtpu_ipv6q": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+     "fdir_ipv6_tc": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "foxville",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g",
+		"carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "ipv4_tos_proto_ttl": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "foxville",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g",
+		"carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "fdir_ivlan": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "foxville",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g",
+		"carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "nsh": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g",
+                "fortpark",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "fortpark_TLV_vf",
+                "fvl10g_vf",
+		"carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support i40e driver nic"
+        }
+    ],
+    "set_key_keylen": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "queue_region_with_rss_rule_api": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "carlsvile"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "queue_region_with_rss_rule_combination": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "queue_region_with_invalid_parameter": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "rxoffload_queue": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "twinpond",
+                "sagepond",
+                "sageville",
+                "foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on niantic"
+        }
+    ],
+    "txoffload_queue": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "foxville",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortville_25g",
+		"columbiaville_100g",
+		"columbiaville_25g",
+                "fortpark",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "tunnel_filter_vxlan": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_25g",
+                "foxville",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "2_tuple_filter": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "bartonhills",
+                "powerville",
+                "fortville_eagle",
+                "fortville_25g",
+		"columbiaville_100g",
+		"columbiaville_25g",
+                "fortville_spirit",
+                "foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on bartonhills and powerville"
+        }
+    ],
+    "fdir_for_nvgre": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "twinville",
+                "sagepond",
+                "sageville",
+                "foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on twinville, sagepond and sageville"
+        }
+    ],
+    "fdir_for_mac_vlan": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "twinville",
+                "fortville_eagle",
+                "fortville_25g",
+		"columbiaville_25g",
+		"columbiaville_100g",
+                "fortville_spirit",
+                "sagepond",
+                "sageville",
+                "foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on twinville,sagepond and sageville"
+        }
+    ],
+    "n_tuple_filter": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "kawela_4",
+                "kawela",
+                "twinville",
+                "foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on twinville,niantic,kawela_4 and kawela"
+        }
+    ],
+    "fdir_for_ipv4": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "foxville",
+                "twinville",
+                "sagepond",
+                "sageville",
+                "fortville_eagle",
+                "fortville_25g",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on niantic,twinville,sagepond,sageville and FVL"
+        }
+    ],
+    "fdir_for_L2_payload": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_25g",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "carlsville",
+		"foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "fdir_for_ipv6": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "twinville",
+                "sagepond",
+                "sageville",
+                "fortville_eagle",
+                "fortville_25g",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "foxville",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on niantic,twinville,sagepond,sageville and FVL"
+        }
+    ],
+    "fdir_for_vxlan": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "twinville",
+                "sagepond",
+                "sageville",
+                "foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on twinville,sagepond and sageville"
+        }
+    ],
+    "fdir_for_vlan": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_25g",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "carlsville",
+		"foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "ethertype_filter": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "kawela_4",
+                "kawela",
+                "bartonhills",
+                "twinville",
+                "sagepond",
+                "sageville",
+                "powerville",
+                "fortville_eagle",
+                "fortville_25g",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "carlsville",
+                "foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on niantic,kawela_4,kawela,bartonhills,twinville,sagepond,sageville,powerville and FVL"
+        }
+    ],
+    "flexbytes_filter": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "bartonhills",
+                "powerville",
+                "foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on bartonhills and powerville"
+        }
+    ],
+    "L2_tunnel_filter": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "sagepond",
+                "sageville",
+                "foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on sagepond and sageville"
+        }
+    ],
+    "fdir_for_flexbytes": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "twinville",
+                "sagepond",
+                "sageville",
+                "fortville_eagle",
+                "fortville_25g",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "carlsville",
+		"foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on niantic,twinville,sagepond,sageville and FVL"
+        }
+    ],
+    "tunnel_filter_nvgre": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_25g",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "carlsville",
+		"foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support on FVL"
+        }
+    ],
+    "perf_eventdev_1ports_atq_atomic_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_1ports_atq_parallel_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_1ports_atq_order_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_1ports_queue_atomic_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_1ports_queue_parallel_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_1ports_queue_order_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_2ports_atq_atomic_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_2ports_atq_parallel_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_2ports_atq_order_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_2ports_queue_atomic_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_2ports_queue_parallel_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_2ports_queue_order_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_4ports_atq_atomic_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_4ports_atq_parallel_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_4ports_atq_order_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_4ports_queue_atomic_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_4ports_queue_parallel_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_4ports_queue_order_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_pipeline_1ports_atomic_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_pipeline_1ports_parallel_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_pipeline_1ports_order_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_pipeline_2ports_atomic_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_pipeline_2ports_parallel_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_pipeline_2ports_order_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_pipeline_4ports_atomic_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_pipeline_4ports_parallel_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "perf_eventdev_pipeline_4ports_order_performance": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 "
+        }
+    ],
+    "dcd_4tc_queue_map_i40e": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for i40e "
+        }
+    ],
+    "dcd_8tc_queue_map_i40e": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for i40e "
+        }
+    ],
+    "perf_shaping_for_port_i40e": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for i40e "
+        }
+    ],
+    "perf_shaping_1port_4tc_i40e": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for i40e "
+        }
+    ],
+    "perf_shaping_1port_8tc_i40e": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for i40e "
+        }
+    ],
+    "dcd_4tc_queue_map_ixgbe": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "sagepond",
+                "sageville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for ixgbe "
+        }
+    ],
+    "dcd_8tc_queue_map_ixgbe": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "sagepond",
+                "sageville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for ixgbe "
+        }
+    ],
+    "perf_shaping_1port_4tc_ixgbe": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "sagepond",
+                "sageville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for ixgbe "
+        }
+    ],
+    "perf_shaping_1port_8tc_ixgbe": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "sagepond",
+                "sageville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for ixgbe "
+        }
+    ],
+    "download_the_package_successfully": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "columbiaville_100g",
+                "columbiaville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for columbiaville"
+        }
+    ],
+    "download_the_package_failed": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "columbiaville_100g",
+                "columbiaville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for columbiaville"
+        }
+    ],
+    "perf_pvp_share_lib_of_fortville": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for fortville_eagle/spirit/25g "
+        }
+    ],
+    "perf_pvp_share_lib_of_niantic": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for niantic "
+        }
+    ],
+    "packet_checking_scalar_mode": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "cavium_a064",
+                "cavium_a063",
+                "fortville_eagle",
+                "fortville_25g",
+                "fortville_spirit"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for cavium_a063 and cavium_a064 "
+        }
+    ],
+    "dcb_4tc_queue_map_i40e": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_25g",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "this case only support on fortville"
+        }
+    ],
+    "dcb_8tc_queue_map_i40e": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_25g",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "this case only support on fortville"
+        }
+    ],
+    "dcb_4tc_queue_map_ixgbe": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for niantic"
+        }
+    ],
+    "dcb_8tc_queue_map_ixgbe": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for niantic"
+        }
+    ],
+    "perf_kernel_pf_dpdk_iavf_perf_host_only": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "this case only support on fortville"
+        }
+    ],
+    "ixgbe_vf_jumboframe": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "sageville",
+		"twinpond"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case currently support for x550/x540"
+        }
+    ],
+    "fdir_L2_mac_filter_basic_for_ipv4_udp": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "carlsville",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "fortville_25g",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support i40e nic "
+        }
+    ],
+    "fdir_L2_mac_filter_basic_for_ipv4_tcp": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "carlsville",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "fortville_25g",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support i40e nic "
+        }
+    ],
+    "fdir_L2_mac_filter_negative": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "carlsville",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "fortville_25g",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support i40e nic "
+        }
+    ],
+    "fdir_L2_mac_filter_basic_for_ipv4_other": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "carlsville",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "fortville_25g",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support i40e nic "
+        }
+    ],
+    "fdir_L2_mac_filter_complex": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "carlsville",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "fortville_25g",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support i40e nic "
+        }
+    ],
+    "queue_region_with_rte_flow_api": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "fortville_25g",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support i40e nic "
+        }
+    ],
+    "flow_director_rss_rule_combination": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "fortville_25g",
+                "carlsville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support i40e nic "
+        }
+    ],
+    "set_rss_queues": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "carlsville",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support i40e nic "
+        }
+    ],
+    "set_rss_types_rss_queue": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "carlsville",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support i40e nic "
+        }
+    ],
+    "disable_rss_in_commandline": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "carlsville",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support i40e nic "
+        }
+    ],
+    "queue_region_in_rte_flow_with_invalid_parameter": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "carlsville",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support i40e nic "
+        }
+    ],
+    "set_rss_types": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_spirit",
+                "carlsville",
+                "fortville_spirit_single",
+                "fortpark_TLV",
+                "fortpark_BASE-T",
+                "fortville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support i40e nic "
+        }
+    ],
+    "disable_rss_in_commandline_ixgbe_igb": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "ironpond",
+                "twinpond",
+                "twinville",
+                "sageville",
+                "sagepond",
+                "springville",
+                "powerville",
+		"foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support ixgbe and igb nic "
+        }
+    ],
+    "disable_enable_rss_ixgbe_igb": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "ironpond",
+                "twinpond",
+                "twinville",
+                "sageville",
+                "sagepond",
+                "springville",
+                "powerville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support ixgbe and igb nic "
+        }
+    ],
+    "rss_queue_rule_ixgbe_igb": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "ironpond",
+                "twinpond",
+                "twinville",
+                "sageville",
+                "sagepond",
+                "springville",
+                "powerville",
+		"foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support ixgbe and igb nic "
+        }
+    ],
+    "different_types_ixgbe_igb": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "ironpond",
+                "twinpond",
+                "twinville",
+                "sageville",
+                "sagepond",
+                "springville",
+                "powerville",
+		"foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support ixgbe and igb nic "
+        }
+    ],
+    "enable_ipv4_udp_rss_ixgbe_igb": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "ironpond",
+                "twinpond",
+                "twinville",
+                "sageville",
+                "sagepond",
+                "springville",
+                "powerville",
+		"foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support ixgbe and igb nic "
+        }
+    ],
+    "flow_director_rss_rule_combination_ixgbe_igb": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "ironpond",
+                "twinpond",
+                "twinville",
+                "sageville",
+                "sagepond",
+                "springville",
+                "powerville",
+		"foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support ixgbe and igb nic "
+        }
+    ],
+     "multicast_filter": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "niantic",
+                "ironpond",
+                "twinpond",
+                "twinville",
+                "sageville",
+                "sagepond",
+                "springville",
+                "powerville",
+                "foxville"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support ixgbe and igb nic,The feature corresponding task ticket is DPDK-7884."
+        }
+    ],
+     "hardware_checksum_check_l4_rx": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_25g",
+                "fortville_spirit",
+                "columbiaville_100g",
+                "columbiaville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support ice"
+        }
+    ],
+     "hardware_checksum_check_l4_tx": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "fortville_eagle",
+                "fortville_25g",
+                "fortville_spirit",
+                "columbiaville_100g",
+                "columbiaville_25g"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only support ice"
+        }
+    ],
+    "lsc_event_between_vhost_user_and_virtio_user_with_packed_ring_and_cbdma_enabled": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "ALL"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "host_driver": [
+                "igb_uio"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only supports the igb_uio driver"
+        }
+    ],
+    "lsc_event_between_vhost_user_and_virtio_user_with_split_ring_and_cbdma_enabled": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "ALL"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "host_driver": [
+                "igb_uio"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only supports the igb_uio driver"
+        }
+    ],
+    "packed_ring_virtio_user_interrupt_test_with_vhost_user_as_backend_and_cbdma_enabled": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "ALL"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "host_driver": [
+                "igb_uio"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only supports the igb_uio driver"
+        }
+    ],
+    "split_ring_virtio_user_interrupt_test_with_vhost_user_as_backend_and_cbdma_enabled": [
+        {
+            "OS": [
+                "ALL"
+            ],
+            "NIC": [
+                "ALL"
+            ],
+            "Target": [
+                "ALL"
+            ],
+            "host_driver": [
+                "igb_uio"
+            ],
+            "Bug ID": "",
+            "Comments": "This case only supports the igb_uio driver"
+        }
+    ]
+}

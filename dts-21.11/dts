@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# <COPYRIGHT_TAG>
+
+PWD=`dirname $0`
+
+pushd $PWD
+./main.py $@
+popd
